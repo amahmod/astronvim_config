@@ -154,6 +154,8 @@ local config = {
     local set = vim.opt
     -- Set options
     set.relativenumber = true
+    set.foldmethod = 'expr'
+    set.foldexpr = 'nvim_treesitter#foldexpr()'
 
     -- Set key bindings
     map('n', '<C-s>', ':w!<CR>')
