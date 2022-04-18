@@ -150,6 +150,7 @@ local config = {
 
     -- Set key bindings
     map('n', '<C-s>', ':w!<CR>')
+    map('n', '<C-p>', ':Telescope find_files<CR>')
     map('n', '<leader>G', ':Git<CR>')
 
     -- Set autocommands
